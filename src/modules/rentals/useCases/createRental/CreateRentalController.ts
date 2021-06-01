@@ -6,7 +6,7 @@ import { CreateRentalUseCase } from "./CreateRentalUseCase";
 class CreateRentalController {
   async handle(request: Request, response: Response): Promise<Response> {
     const createRentalUseCase = container.resolve(CreateRentalUseCase);
-    const { expected_return_date, car_id } = request.body;
+    const { car_id, expected_return_date } = request.body;
 
     const { id } = request.user;
 
