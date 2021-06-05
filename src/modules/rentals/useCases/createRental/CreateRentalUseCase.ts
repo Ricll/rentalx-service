@@ -62,7 +62,7 @@ class CreateRentalUseCase {
     });
 
     await this.carsRepository.updateAvailable(car_id, false);
-    console.log(rental);
+
     return rental;
   }
 }

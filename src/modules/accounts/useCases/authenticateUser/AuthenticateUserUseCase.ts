@@ -62,18 +62,17 @@ class AuthenticateUserUseCase {
       subject: user.id,
       expiresIn: expires_in_refresh_token,
     });
-    // chegou
 
     const refresh_token_expires_date = this.dayJsDateProvider.addDays(
       expires_refresh_token_days,
     );
-    // chegou
-    const result = await this.usersTokenRepository.create({
+
+    await this.usersTokenRepository.create({
       refresh_token,
       user_id: user.id,
       expires_date: refresh_token_expires_date,
     });
-    console.log(result);
+
     const tokenReturn: IResponse = {
       user: {
         name: user.name,

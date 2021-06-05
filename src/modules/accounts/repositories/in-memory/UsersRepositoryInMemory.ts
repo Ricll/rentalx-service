@@ -3,7 +3,7 @@ import User from "@modules/accounts/infra/typeorm/entities/User";
 
 import { IUsersRepository } from "../IUsersRepository";
 
-export default class UsersRepositoryInMemory implements IUsersRepository {
+class UsersRepositoryInMemory implements IUsersRepository {
   users: User[] = [];
 
   async create({
@@ -32,3 +32,5 @@ export default class UsersRepositoryInMemory implements IUsersRepository {
     return this.users.find(user => user.id === id);
   }
 }
+
+export { UsersRepositoryInMemory };
