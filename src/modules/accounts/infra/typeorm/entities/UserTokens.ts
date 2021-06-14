@@ -8,7 +8,7 @@ import {
 } from "typeorm";
 import { v4 as uuidV4 } from "uuid";
 
-import User from "./User";
+import { User } from "./User";
 
 @Entity("users_tokens")
 class UserTokens {
