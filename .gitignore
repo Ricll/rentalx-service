@@ -1,10 +1,9 @@
-node_modules
 .vscode
+node_modules/
 tmp/*
-coverage
+coverage/
 .env
 !tmp/.gitkeep
-dist
+dist/
 ormconfig.json
-
 tempCodeRunnerFile
