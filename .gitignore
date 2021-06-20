@@ -6,4 +6,3 @@ coverage/
 !tmp/.gitkeep
 dist/
 ormconfig.json
-tempCodeRunnerFile
