@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="https://res.cloudinary.com/dpz6e1awu/image/upload/v1603811243/logo_gobarber_ivwgth.svg" width="250px">
+  <img alt="Logo" src="https://res.cloudinary.com/dpz6e1awu/image/upload/v1624931297/logo_mzpa1d.svg">
 </h1>
 
 <h3 align="center">
@@ -53,7 +53,7 @@ Technologies that I used to develop this mobile client
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/Ricll/frontend-mobile-gobarber-2020.git && cd frontend-mobile-gobarber
+$ git clone https://github.com/Ricll/rentalx-service.git && cd rentalx-service
 ```
 
 **Follow the steps below**
@@ -62,15 +62,11 @@ $ git clone https://github.com/Ricll/frontend-mobile-gobarber-2020.git && cd fro
 # Install the dependencies
 $ yarn
 
-# Be sure the file 'src/services/api.ts' have the IP to your API
+# In your Terminal, open the folder rentalx-service
 
-# If you are going to emulate with android, run this command
-# Be sure to have the emulator open
-$ yarn android
+$ yarn dev
 
-# If you are going to emulate with ios, run this command
-$ yarn ios
-```
+
 
 ## 🤔 How to contribute
 
@@ -80,14 +76,14 @@ $ yarn ios
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork Ricll/frontend-mobile-gobarber-2020
+$ gh repo fork Ricll/rentalx-service
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url &&frontend-mobile-gobarber-2020
+$ git clone your-fork-url && Ricll/rentalx-service
 
 # Create a branch with your feature
 $ git checkout -b my-feature
@@ -107,4 +103,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with 💜 by Ricardo L Lima 👋 [See my linkedin]()
+Made with 💜 by Ricardo L Lima 👋 
