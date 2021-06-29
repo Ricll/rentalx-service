@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img alt="Logo" src="https://res.cloudinary.com/dpz6e1awu/image/upload/v1624931297/logo_mzpa1d.svg" width="200" height="100>
+  <img alt="Logo" src="https://res.cloudinary.com/dpz6e1awu/image/upload/v1624931297/logo_mzpa1d.svg" width="200" height="100 align="center">
 </h1>
 
 <h3 align="center">
-  React Native Application for Rentx project
+  Express Application for Rentx project
 </h3>
 
 <p align="center">The best way to rent a car!</p>
@@ -36,7 +36,10 @@ Technologies that I used to develop this mobile client
 - [PostgreSQL](https://www.postgresql.org/)
 - [Swagger UI Express](https://github.com/scottie1984/swagger-ui-express)
 - [Redis](https://redis.io/)
-- [Commitizen](https://github.com/commitizen/cz-cli)
+- [AWS EC2](https://aws.amazon.com/pt/ec2/) 
+- [AWS S3](https://aws.amazon.com/pt/s3/)  
+- [Docker](https://docs.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)        
 - [Handlebars](https://handlebarsjs.com/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
